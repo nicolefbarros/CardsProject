@@ -1,10 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenuActivity">
+    android:background="#CEEDF8"
+    android:orientation="vertical"
+    >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="GÊNEROS"
+            android:textColor="#3C3C3C"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+
+    android:layout_width="match_parent"
+    android:layout_height="340dp">
+<include
+    layout="@layout/itemlivro">
+
+</include>
+    <include
+        layout="@layout/itemlivroaventura">
+
+    </include>
+</LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+
+        android:layout_width="match_parent"
+        android:layout_height="340dp">
+        <include
+            layout="@layout/itemlivrosuspense">
+
+        </include>
+        <include
+            layout="@layout/itemlivroterror">
+
+        </include>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+
+        android:layout_width="match_parent"
+        android:layout_height="340dp">
+        <include
+            layout="@layout/itemlivroficcao">
+
+        </include>
+        <include
+            layout="@layout/itemlivrofantasia">
+
+        </include>
+    </LinearLayout>
+
+
+</LinearLayout>
