@@ -32,7 +32,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="30dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/terror" />
+                android:src="@drawable/aventura" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -44,7 +44,7 @@
             <TextView
                 android:layout_width="350dp"
                 android:layout_height="150dp"
-                android:text="Jogos Vorazes, de Suzanne Collins, é um livro de aventura e ficção científica que se passa em um mundo dividido por distritos. A história acompanha Katniss Everdeen, uma jovem que precisa enfrentar desafios em uma competição perigosa."
+                android:text="Nadia Keane, de Ana Jeckel, é um livro de fantasia e aventura que envolve piratas, magia e mistérios. A história acompanha uma jornada cheia de desafios e descobertas inesperadas. Ao longo do caminho, segredos são revelados e novos perigos surgem. "
                 android:textSize="18dp" />
 
 

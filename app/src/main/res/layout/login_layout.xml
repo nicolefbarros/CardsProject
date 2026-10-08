@@ -16,7 +16,7 @@
         app:cardCornerRadius="16dp"
         app:cardElevation="8dp"
         android:layout_gravity="center"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="150dp"
         app:cardBackgroundColor="#FFFFFF">
 
         <LinearLayout

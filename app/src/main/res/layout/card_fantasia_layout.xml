@@ -32,7 +32,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="30dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/terror" />
+                android:src="@drawable/fantasia" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -44,7 +44,7 @@
             <TextView
                 android:layout_width="350dp"
                 android:layout_height="150dp"
-                android:text="Jogos Vorazes, de Suzanne Collins, é um livro de aventura e ficção científica que se passa em um mundo dividido por distritos. A história acompanha Katniss Everdeen, uma jovem que precisa enfrentar desafios em uma competição perigosa."
+                android:text="Harry Potter e as Relíquias da Morte, de J.K. Rowling, é o último livro da saga e acompanha Harry em sua missão de derrotar Voldemort. Ao lado de seus amigos, ele enfrenta desafios, perigos e grandes descobertas."
                 android:textSize="18dp" />
 
 
