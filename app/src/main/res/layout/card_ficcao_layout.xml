@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    android:background="#8AD9E2"
+    android:background="#575757"
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
@@ -62,7 +62,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:backgroundTint="#5EACB3"
+                android:backgroundTint="#484949"
                 android:text="Avaliar" />
 
             <LinearLayout
